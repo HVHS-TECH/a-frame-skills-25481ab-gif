@@ -11,8 +11,15 @@
 <a-sphere color="yellow" radius-bottom="5" radius-top="3"
                 position="0 2 -4" height="4 4 4"
             ></a-sphere>
-<a-sphere color="Green" radius-bottom="4" radius-top="2"
-                position="0 4 -4" height="2 4 3"
+<a-sphere position="0 4 -4" color="green" scale="0.3 0.3 0.3" 
+                     animation="
+                    property:position;
+                    from:-4 2 -22;
+                    to:4 2 -8;
+                    dur:2000;
+                    loop:true;
+                    dir:alternate"
+
             ></a-sphere>
         </a-scene>
     </body>
